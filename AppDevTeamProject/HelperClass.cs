@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace AppDevTeamProject
 {
+    
     class HelperClass
     {
+        // Class to manages User class to the form class
+
+
     }
 }
