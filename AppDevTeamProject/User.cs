@@ -6,23 +6,23 @@ namespace AppDevTeamProject
     {
 
         // Unique user Identifier
-        private int ID { set; get; }
+        public int ID { set; get; }
 
         // User Info to fill in
-        private string FirstName { set; get; }
-        private string LastName { set; get; }
-        private int Age { set; get; }
-        private int Location { set; get; }
-        private string Bio { set; get; }
-        private string[] Attributes { set; get; }
+        public string FirstName { set; get; }
+        public string LastName { set; get; }
+        public int Age { set; get; }
+        public int Location { set; get; }
+        public string Bio { set; get; }
+        public string[] Attributes { set; get; }
 
         // User logins
-        private string Username { set; get; }
-        private int Password { set; get; }
+        public string Username { set; get; }
+        public int Password { set; get; }
 
 
         // User preferences
-        private string[] Interest { set; get; }
+        public string[] Interest { set; get; }
 
 
         // Constructor
