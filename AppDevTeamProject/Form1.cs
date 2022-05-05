@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,6 +18,21 @@ namespace AppDevTeamProject
             InitializeComponent();
         }
 
-
+        private void testBtn_Click(object sender, EventArgs e)
+        {
+        
+            Database db = new Database();
+            db.LoadDb();
+            User user = (User)db.members[0];
+            foreach (User x in db.members)
+            {
+                if (x.ID == 1)
+                {
+                    MessageContainer.Text = x.FirstName;
+                    break;
+                }
+            }
+           
+        }
     }
 }
