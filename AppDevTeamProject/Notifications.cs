@@ -16,5 +16,19 @@ namespace AppDevTeamProject
         {
             InitializeComponent();
         }
+
+        private void notificationsViewBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            matchProfile mpf = new matchProfile();
+            mpf.ShowDialog();
+            this.Close();
+            
+        }
+
+        private void notificationsCancelBtn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

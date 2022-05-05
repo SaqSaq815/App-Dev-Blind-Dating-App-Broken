@@ -34,6 +34,7 @@ namespace AppDevTeamProject
             this.loginUsernameTextBox = new System.Windows.Forms.TextBox();
             this.loginPasswordTextbox = new System.Windows.Forms.TextBox();
             this.quiBtn = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.SuspendLayout();
             // 
             // label1
@@ -78,6 +79,14 @@ namespace AppDevTeamProject
             this.quiBtn.UseVisualStyleBackColor = true;
             this.quiBtn.Click += new System.EventHandler(this.quiBtn_Click);
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(445, 24);
+            this.menuStrip1.TabIndex = 5;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -88,6 +97,8 @@ namespace AppDevTeamProject
             this.Controls.Add(this.loginUsernameTextBox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Login";
             this.Text = "Login";
             this.ResumeLayout(false);
@@ -102,5 +113,6 @@ namespace AppDevTeamProject
         private System.Windows.Forms.TextBox loginUsernameTextBox;
         private System.Windows.Forms.TextBox loginPasswordTextbox;
         private System.Windows.Forms.Button quiBtn;
+        private System.Windows.Forms.MenuStrip menuStrip1;
     }
 }

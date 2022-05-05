@@ -53,6 +53,7 @@ namespace AppDevTeamProject
             this.notificationsViewBtn.TabIndex = 1;
             this.notificationsViewBtn.Text = "View";
             this.notificationsViewBtn.UseVisualStyleBackColor = true;
+            this.notificationsViewBtn.Click += new System.EventHandler(this.notificationsViewBtn_Click);
             // 
             // notificationsCancelBtn
             // 
@@ -63,6 +64,7 @@ namespace AppDevTeamProject
             this.notificationsCancelBtn.TabIndex = 2;
             this.notificationsCancelBtn.Text = "Cancel";
             this.notificationsCancelBtn.UseVisualStyleBackColor = true;
+            this.notificationsCancelBtn.Click += new System.EventHandler(this.notificationsCancelBtn_Click);
             // 
             // Notifications
             // 

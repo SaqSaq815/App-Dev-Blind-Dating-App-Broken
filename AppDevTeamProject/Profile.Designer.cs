@@ -47,6 +47,7 @@ namespace AppDevTeamProject
             this.profileSearchTextbox = new System.Windows.Forms.TextBox();
             this.profileLogoutBtn = new System.Windows.Forms.Button();
             this.profileNotificationsBtn = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.profileAgeNumericUpDown)).BeginInit();
@@ -233,6 +234,7 @@ namespace AppDevTeamProject
             this.profileLogoutBtn.TabIndex = 15;
             this.profileLogoutBtn.Text = "Logout";
             this.profileLogoutBtn.UseVisualStyleBackColor = true;
+            this.profileLogoutBtn.Click += new System.EventHandler(this.profileLogoutBtn_Click);
             // 
             // profileNotificationsBtn
             // 
@@ -243,12 +245,25 @@ namespace AppDevTeamProject
             this.profileNotificationsBtn.TabIndex = 16;
             this.profileNotificationsBtn.Text = "Notifications";
             this.profileNotificationsBtn.UseVisualStyleBackColor = true;
+            this.profileNotificationsBtn.Click += new System.EventHandler(this.profileNotificationsBtn_Click);
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(223, 48);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(102, 25);
+            this.button1.TabIndex = 16;
+            this.button1.Text = "Search";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Profile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 533);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.profileNotificationsBtn);
             this.Controls.Add(this.profileLogoutBtn);
             this.Controls.Add(this.profileSearchTextbox);
@@ -285,5 +300,6 @@ namespace AppDevTeamProject
         private System.Windows.Forms.TextBox profileSearchTextbox;
         private System.Windows.Forms.Button profileLogoutBtn;
         private System.Windows.Forms.Button profileNotificationsBtn;
+        private System.Windows.Forms.Button button1;
     }
 }

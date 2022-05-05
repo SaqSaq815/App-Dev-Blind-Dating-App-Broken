@@ -259,26 +259,29 @@ namespace AppDevTeamProject
             this.mpReportBtn.TabIndex = 19;
             this.mpReportBtn.Text = "Report";
             this.mpReportBtn.UseVisualStyleBackColor = true;
+            this.mpReportBtn.Click += new System.EventHandler(this.mpReportBtn_Click);
             // 
             // thumbsDownBtn
             // 
             this.thumbsDownBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.thumbsDownBtn.Location = new System.Drawing.Point(500, 470);
             this.thumbsDownBtn.Name = "thumbsDownBtn";
-            this.thumbsDownBtn.Size = new System.Drawing.Size(75, 23);
+            this.thumbsDownBtn.Size = new System.Drawing.Size(81, 32);
             this.thumbsDownBtn.TabIndex = 20;
-            this.thumbsDownBtn.Text = "✓";
+            this.thumbsDownBtn.Text = "Accept";
             this.thumbsDownBtn.UseVisualStyleBackColor = true;
+            this.thumbsDownBtn.Click += new System.EventHandler(this.thumbsDownBtn_Click);
             // 
             // thumbsUpBtn
             // 
             this.thumbsUpBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.thumbsUpBtn.Location = new System.Drawing.Point(656, 470);
             this.thumbsUpBtn.Name = "thumbsUpBtn";
-            this.thumbsUpBtn.Size = new System.Drawing.Size(75, 23);
+            this.thumbsUpBtn.Size = new System.Drawing.Size(79, 32);
             this.thumbsUpBtn.TabIndex = 21;
-            this.thumbsUpBtn.Text = "x";
+            this.thumbsUpBtn.Text = "Decline";
             this.thumbsUpBtn.UseVisualStyleBackColor = true;
+            this.thumbsUpBtn.Click += new System.EventHandler(this.thumbsUpBtn_Click);
             // 
             // matchProfile
             // 

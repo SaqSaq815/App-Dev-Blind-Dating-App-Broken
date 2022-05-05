@@ -17,5 +17,23 @@ namespace AppDevTeamProject
             InitializeComponent();
         }
 
+        private void profileLogoutBtn_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void profileNotificationsBtn_Click(object sender, EventArgs e)
+        {
+         
+            Notifications notif = new Notifications();
+            notif.ShowDialog();
+          
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            matchProfile mpf = new matchProfile();
+            mpf.ShowDialog();
+        }
     }
 }
