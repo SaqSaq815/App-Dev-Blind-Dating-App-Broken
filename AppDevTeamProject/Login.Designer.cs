@@ -76,6 +76,7 @@ namespace AppDevTeamProject
             this.quiBtn.TabIndex = 4;
             this.quiBtn.Text = "Login";
             this.quiBtn.UseVisualStyleBackColor = true;
+            this.quiBtn.Click += new System.EventHandler(this.quiBtn_Click);
             // 
             // Login
             // 

@@ -16,5 +16,14 @@ namespace AppDevTeamProject
         {
             InitializeComponent();
         }
+
+        private void quiBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Profile prof = new Profile();
+            prof.ShowDialog();
+            this.Close();
+
+        }
     }
 }
