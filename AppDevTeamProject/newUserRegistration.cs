@@ -16,5 +16,13 @@ namespace AppDevTeamProject
         {
             InitializeComponent();
         }
+
+        private void userRegistrationApplyBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login login = new Login();
+            login.ShowDialog();
+            this.Close();
+        }
     }
 }

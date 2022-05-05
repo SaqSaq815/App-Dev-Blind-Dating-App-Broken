@@ -33,6 +33,7 @@ namespace AppDevTeamProject
             this.label2 = new System.Windows.Forms.Label();
             this.loginUsernameTextBox = new System.Windows.Forms.TextBox();
             this.loginPasswordTextbox = new System.Windows.Forms.TextBox();
+            this.quiBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -67,11 +68,21 @@ namespace AppDevTeamProject
             this.loginPasswordTextbox.Size = new System.Drawing.Size(318, 20);
             this.loginPasswordTextbox.TabIndex = 3;
             // 
+            // quiBtn
+            // 
+            this.quiBtn.Location = new System.Drawing.Point(308, 198);
+            this.quiBtn.Name = "quiBtn";
+            this.quiBtn.Size = new System.Drawing.Size(75, 26);
+            this.quiBtn.TabIndex = 4;
+            this.quiBtn.Text = "Login";
+            this.quiBtn.UseVisualStyleBackColor = true;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(445, 236);
+            this.Controls.Add(this.quiBtn);
             this.Controls.Add(this.loginPasswordTextbox);
             this.Controls.Add(this.loginUsernameTextBox);
             this.Controls.Add(this.label2);
@@ -89,5 +100,6 @@ namespace AppDevTeamProject
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox loginUsernameTextBox;
         private System.Windows.Forms.TextBox loginPasswordTextbox;
+        private System.Windows.Forms.Button quiBtn;
     }
 }

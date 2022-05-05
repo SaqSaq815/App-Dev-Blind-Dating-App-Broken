@@ -34,6 +34,10 @@ namespace AppDevTeamProject
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.userRegistrationPasswordTextbox = new System.Windows.Forms.TextBox();
+            this.userRegistrationUsernameTextbox = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.userRegistrationDescriptionTextbox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.userRegistrationAgeNumericUpDown = new System.Windows.Forms.NumericUpDown();
@@ -43,10 +47,6 @@ namespace AppDevTeamProject
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.userRegistrationProfilePicLabel = new System.Windows.Forms.Label();
             this.userRegistrationClearBtn = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.userRegistrationUsernameTextbox = new System.Windows.Forms.TextBox();
-            this.userRegistrationPasswordTextbox = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.userRegistrationAgeNumericUpDown)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -61,6 +61,7 @@ namespace AppDevTeamProject
             this.userRegistrationApplyBtn.TabIndex = 0;
             this.userRegistrationApplyBtn.Text = "Apply";
             this.userRegistrationApplyBtn.UseVisualStyleBackColor = true;
+            this.userRegistrationApplyBtn.Click += new System.EventHandler(this.userRegistrationApplyBtn_Click);
             // 
             // userRegistrationInterestCheckedlist
             // 
@@ -112,6 +113,38 @@ namespace AppDevTeamProject
             this.groupBox1.Size = new System.Drawing.Size(351, 459);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
+            // 
+            // userRegistrationPasswordTextbox
+            // 
+            this.userRegistrationPasswordTextbox.Location = new System.Drawing.Point(6, 137);
+            this.userRegistrationPasswordTextbox.Name = "userRegistrationPasswordTextbox";
+            this.userRegistrationPasswordTextbox.Size = new System.Drawing.Size(339, 22);
+            this.userRegistrationPasswordTextbox.TabIndex = 14;
+            // 
+            // userRegistrationUsernameTextbox
+            // 
+            this.userRegistrationUsernameTextbox.Location = new System.Drawing.Point(6, 81);
+            this.userRegistrationUsernameTextbox.Name = "userRegistrationUsernameTextbox";
+            this.userRegistrationUsernameTextbox.Size = new System.Drawing.Size(339, 22);
+            this.userRegistrationUsernameTextbox.TabIndex = 13;
+            // 
+            // label8
+            // 
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(7, 114);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(85, 19);
+            this.label8.TabIndex = 12;
+            this.label8.Text = "Password:";
+            // 
+            // label7
+            // 
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(5, 58);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(96, 19);
+            this.label7.TabIndex = 11;
+            this.label7.Text = "UserName: ";
             // 
             // userRegistrationDescriptionTextbox
             // 
@@ -206,38 +239,6 @@ namespace AppDevTeamProject
             this.userRegistrationClearBtn.TabIndex = 12;
             this.userRegistrationClearBtn.Text = "Clear";
             this.userRegistrationClearBtn.UseVisualStyleBackColor = true;
-            // 
-            // label7
-            // 
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(5, 58);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(96, 19);
-            this.label7.TabIndex = 11;
-            this.label7.Text = "UserName: ";
-            // 
-            // label8
-            // 
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(7, 114);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(85, 19);
-            this.label8.TabIndex = 12;
-            this.label8.Text = "Password:";
-            // 
-            // userRegistrationUsernameTextbox
-            // 
-            this.userRegistrationUsernameTextbox.Location = new System.Drawing.Point(6, 81);
-            this.userRegistrationUsernameTextbox.Name = "userRegistrationUsernameTextbox";
-            this.userRegistrationUsernameTextbox.Size = new System.Drawing.Size(339, 22);
-            this.userRegistrationUsernameTextbox.TabIndex = 13;
-            // 
-            // userRegistrationPasswordTextbox
-            // 
-            this.userRegistrationPasswordTextbox.Location = new System.Drawing.Point(6, 137);
-            this.userRegistrationPasswordTextbox.Name = "userRegistrationPasswordTextbox";
-            this.userRegistrationPasswordTextbox.Size = new System.Drawing.Size(339, 22);
-            this.userRegistrationPasswordTextbox.TabIndex = 14;
             // 
             // newUserRegistration
             // 

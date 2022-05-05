@@ -41,6 +41,7 @@ namespace AppDevTeamProject
             this.newUserBtn.TabIndex = 0;
             this.newUserBtn.Text = "New User";
             this.newUserBtn.UseVisualStyleBackColor = true;
+            this.newUserBtn.Click += new System.EventHandler(this.newUserBtn_Click);
             // 
             // alreadyMemberBtn
             // 
@@ -50,6 +51,7 @@ namespace AppDevTeamProject
             this.alreadyMemberBtn.TabIndex = 1;
             this.alreadyMemberBtn.Text = "Already a Member";
             this.alreadyMemberBtn.UseVisualStyleBackColor = true;
+            this.alreadyMemberBtn.Click += new System.EventHandler(this.alreadyMemberBtn_Click);
             // 
             // Welcome
             // 
