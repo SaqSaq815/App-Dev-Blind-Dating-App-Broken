@@ -1,8 +1,12 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 
 namespace AppDevTeamProject
 {
@@ -10,32 +14,26 @@ namespace AppDevTeamProject
     class HelperClass
     {
         // Arrays of members
-        private int[] userId;
-        private string[] userPass;
-
+        Database db;
 
         // Not a good design if we have a huge databse
         // Return true if userId and userPass exist
         public bool VerifyUser(int id, int pass)
         {
-            for(int i = 0; i < userId.Length; i++)
+
+            foreach (User x in db.members)
             {
-                if(userId[i] == id )
+                if (x.ID == id)
                 {
-                    for(int j = 0; j < userPass.Length; j++)
+                    if (x.Password.Equals(pass))
                     {
-                        if (userPass[j].Equals(pass))
-                        {
-                            return true;
-                        }
-                        break;
+                        return true;
                     }
+                    break;
                 }
-                
             }
             return false;
         }
-
 
     }
 }

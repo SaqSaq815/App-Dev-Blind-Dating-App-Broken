@@ -1,0 +1,27 @@
+﻿[
+	{
+		"Id": 0,
+		"FirstName": "Jeffrey",
+		"LastName": "grospe",
+		"Age": 29,
+		"Location": "Montreal City",
+		"Bio": "Me gusta ti culo",
+		"Attributes": [ "smart", "fun", "easy going" ],
+		"Usernmae": "jgrospe",
+		"Password": "1234",
+		"Interest": [ "smart", "sexy", "fun" ]
+	},
+	{
+		"Id": 1,
+		"FirstName": "Md Saqliyan",
+		"LastName": "Islam",
+		"Age": 29,
+		"Location": "Montreal City",
+		"Bio": "Me gusta ti culo",
+		"Attributes": [ "smart", "fun", "easy going" ],
+		"Usernmae": "jgrospe",
+		"Password": "1234",
+		"Interest": [ "smart", "sexy", "fun" ]
+	}
+]
+  

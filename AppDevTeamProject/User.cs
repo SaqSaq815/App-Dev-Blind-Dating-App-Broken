@@ -1,8 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace AppDevTeamProject
 {
-    class User
+    public class User
     {
 
         // Unique user Identifier
@@ -12,9 +13,9 @@ namespace AppDevTeamProject
         public string FirstName { set; get; }
         public string LastName { set; get; }
         public int Age { set; get; }
-        public int Location { set; get; }
+        public string Location { set; get; }
         public string Bio { set; get; }
-        public string[] Attributes { set; get; }
+        public string[] Traits { set; get; }
 
         // User logins
         public string Username { set; get; }
@@ -22,11 +23,11 @@ namespace AppDevTeamProject
 
 
         // User preferences
-        public string[] Interest { set; get; }
+        public string[] Likes { set; get; }
 
 
         // Constructor
-        public User(int iD, string firstName, string lastName, int age, int location, string bio, string[] attributes, string username, int password, string[] interest)
+        public User(int iD, string firstName, string lastName, int age, string location, string bio, string username, int password)
         {
             ID = iD;
             FirstName = firstName;
@@ -34,12 +35,14 @@ namespace AppDevTeamProject
             Age = age;
             Location = location;
             Bio = bio;
-            Attributes = attributes;
             Username = username;
             Password = password;
-            Interest = interest;
 
         }
 
+        public override string ToString()
+        {
+            return base.ToString();
+        }
     }
 }

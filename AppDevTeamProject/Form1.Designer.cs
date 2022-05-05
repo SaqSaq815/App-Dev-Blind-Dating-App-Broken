@@ -39,10 +39,11 @@ namespace AppDevTeamProject
             this.heart = new System.Windows.Forms.Button();
             this.thumbsUp = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.Profile = new System.Windows.Forms.Button();
-            this.UserName = new System.Windows.Forms.Label();
             this.Points = new System.Windows.Forms.Label();
+            this.UserName = new System.Windows.Forms.Label();
+            this.Profile = new System.Windows.Forms.Button();
             this.advanceSearch = new System.Windows.Forms.TextBox();
+            this.testBtn = new System.Windows.Forms.Button();
             this.groupContainerPicture.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -142,14 +143,15 @@ namespace AppDevTeamProject
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             // 
-            // Profile
+            // Points
             // 
-            this.Profile.Location = new System.Drawing.Point(209, 14);
-            this.Profile.Name = "Profile";
-            this.Profile.Size = new System.Drawing.Size(52, 23);
-            this.Profile.TabIndex = 0;
-            this.Profile.Text = "Profile";
-            this.Profile.UseVisualStyleBackColor = true;
+            this.Points.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Points.Location = new System.Drawing.Point(6, 14);
+            this.Points.Name = "Points";
+            this.Points.Size = new System.Drawing.Size(86, 23);
+            this.Points.TabIndex = 8;
+            this.Points.Text = "Points";
+            this.Points.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // UserName
             // 
@@ -161,15 +163,14 @@ namespace AppDevTeamProject
             this.UserName.Text = "NameHere";
             this.UserName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Points
+            // Profile
             // 
-            this.Points.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Points.Location = new System.Drawing.Point(6, 14);
-            this.Points.Name = "Points";
-            this.Points.Size = new System.Drawing.Size(86, 23);
-            this.Points.TabIndex = 8;
-            this.Points.Text = "Points";
-            this.Points.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Profile.Location = new System.Drawing.Point(209, 14);
+            this.Profile.Name = "Profile";
+            this.Profile.Size = new System.Drawing.Size(52, 23);
+            this.Profile.TabIndex = 0;
+            this.Profile.Text = "Profile";
+            this.Profile.UseVisualStyleBackColor = true;
             // 
             // advanceSearch
             // 
@@ -179,11 +180,22 @@ namespace AppDevTeamProject
             this.advanceSearch.TabIndex = 8;
             this.advanceSearch.Text = "Advance Search / Filter";
             // 
+            // testBtn
+            // 
+            this.testBtn.Location = new System.Drawing.Point(252, 267);
+            this.testBtn.Name = "testBtn";
+            this.testBtn.Size = new System.Drawing.Size(75, 23);
+            this.testBtn.TabIndex = 9;
+            this.testBtn.Text = "Test";
+            this.testBtn.UseVisualStyleBackColor = true;
+            this.testBtn.Click += new System.EventHandler(this.testBtn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(696, 450);
+            this.Controls.Add(this.testBtn);
             this.Controls.Add(this.advanceSearch);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.thumbsUp);
@@ -218,6 +230,7 @@ namespace AppDevTeamProject
         private System.Windows.Forms.Label UserName;
         private System.Windows.Forms.Button Profile;
         private System.Windows.Forms.TextBox advanceSearch;
+        private System.Windows.Forms.Button testBtn;
     }
 }
 
