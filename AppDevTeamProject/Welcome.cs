@@ -17,6 +17,21 @@ namespace AppDevTeamProject
             InitializeComponent();
         }
 
+        private void newUserBtn_Click(object sender, EventArgs e)
+        {
 
+            this.Hide();
+            newUserRegistration newUserForm = new newUserRegistration();
+            newUserForm.ShowDialog();
+            this.Close();
+        }
+
+        private void alreadyMemberBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login login = new Login();
+            login.ShowDialog();
+            this.Close();
+        }
     }
 }
