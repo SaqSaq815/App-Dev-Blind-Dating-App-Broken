@@ -46,6 +46,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="listOfMatched.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="listOfMatched.Designer.cs">
+      <DependentUpon>listOfMatched.cs</DependentUpon>
+    </Compile>
+    <Compile Include="matchProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="matchProfile.Designer.cs">
+      <DependentUpon>matchProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Notifications.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Notifications.Designer.cs">
+      <DependentUpon>Notifications.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profile.Designer.cs">
+      <DependentUpon>Profile.cs</DependentUpon>
+    </Compile>
     <Compile Include="Welcome.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +90,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="listOfMatched.resx">
+      <DependentUpon>listOfMatched.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="matchProfile.resx">
+      <DependentUpon>matchProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notifications.resx">
+      <DependentUpon>Notifications.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile.resx">
+      <DependentUpon>Profile.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Welcome.resx">
       <DependentUpon>Welcome.cs</DependentUpon>
     </EmbeddedResource>
