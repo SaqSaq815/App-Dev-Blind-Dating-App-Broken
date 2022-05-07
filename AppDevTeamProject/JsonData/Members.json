@@ -1,27 +1,32 @@
-﻿[
-	{
-		"Id": 0,
-		"FirstName": "Jeffrey",
-		"LastName": "grospe",
-		"Age": 29,
-		"Location": "Montreal City",
-		"Bio": "Me gusta ti culo",
-		"Attributes": [ "smart", "fun", "easy going" ],
-		"Usernmae": "jgrospe",
-		"Password": "1234",
-		"Interest": [ "smart", "sexy", "fun" ]
-	},
-	{
-		"Id": 1,
-		"FirstName": "Md Saqliyan",
-		"LastName": "Islam",
-		"Age": 29,
-		"Location": "Montreal City",
-		"Bio": "Me gusta ti culo",
-		"Attributes": [ "smart", "fun", "easy going" ],
-		"Usernmae": "jgrospe",
-		"Password": "1234",
-		"Interest": [ "smart", "sexy", "fun" ]
-	}
-]
-  
+﻿{
+  "USER": [
+    {
+      "Id": 0,
+      "FirstName": "Jeffrey",
+      "LastName": "Grospe",
+      "Age": 29,
+      "Location": "Montreal City",
+      "Bio": "Me gusta ti culo",
+      "Traits": [ "smart", "fun", "easy going" ],
+      "Usernmae": "jgrospe",
+      "Password": "1234",
+      "Likes": [ "stable", "sweet", "fun" ],
+      "Avatar": ""
+    },
+    {
+      "Id": 1,
+      "FirstName": "Md Saqliyan",
+      "LastName": "Islam",
+      "Age": 29,
+      "Location": "Montreal City",
+      "Bio": "I will make you taste heaven",
+      "Traits": [ "rich", "horny", "religious" ],
+      "Usernmae": "mdsaqliyan",
+      "Password": "1234",
+      "Likes": [ "horny", "horny", "horny" ],
+      "Avatar": ""
+    },
+
+  ]
+
+}
