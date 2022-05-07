@@ -135,6 +135,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="JsonData\Members.json" />
     <None Include="packages.config" />
@@ -151,6 +152,17 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Arvina.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Philicia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Saq.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jeffrey.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

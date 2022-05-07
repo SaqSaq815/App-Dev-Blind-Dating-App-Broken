@@ -16,8 +16,13 @@ namespace AppDevTeamProject
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< Updated upstream
             //Application.Run(new Welcome());
             Application.Run(new TestControl());
+=======
+            Application.Run(new Welcome());
+            //Application.Run(new TestControl());
+>>>>>>> Stashed changes
         }
     }
 }

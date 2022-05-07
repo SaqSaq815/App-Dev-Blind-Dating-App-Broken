@@ -17,6 +17,10 @@ namespace AppDevTeamProject
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int Age { get; set; }
+<<<<<<< Updated upstream
+=======
+        public string Gender { get; set; }
+>>>>>>> Stashed changes
         public string Location { get; set; }
         public string Bio { get; set; }
         public List<string> Traits { get; set; }

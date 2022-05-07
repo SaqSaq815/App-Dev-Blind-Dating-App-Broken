@@ -5,27 +5,44 @@
       "FirstName": "Jeffrey",
       "LastName": "Grospe",
       "Age": 29,
+<<<<<<< Updated upstream
+=======
+      "Gender": "Male",
+>>>>>>> Stashed changes
       "Location": "Montreal City",
       "Bio": "Me gusta ti culo",
       "Traits": [ "smart", "fun", "easy going" ],
       "Usernmae": "jgrospe",
       "Password": "1234",
       "Likes": [ "stable", "sweet", "fun" ],
+<<<<<<< Updated upstream
       "Avatar": ""
+=======
+      "Avatar": "jeffrey"
+>>>>>>> Stashed changes
     },
     {
       "Id": 1,
       "FirstName": "Md Saqliyan",
       "LastName": "Islam",
       "Age": 29,
+<<<<<<< Updated upstream
+=======
+      "Gender": "Male",
+>>>>>>> Stashed changes
       "Location": "Montreal City",
       "Bio": "I will make you taste heaven",
       "Traits": [ "rich", "horny", "religious" ],
       "Usernmae": "mdsaqliyan",
       "Password": "1234",
       "Likes": [ "horny", "horny", "horny" ],
+<<<<<<< Updated upstream
       "Avatar": ""
     },
+=======
+      "Avatar": "Saq"
+    }
+>>>>>>> Stashed changes
 
   ]
 

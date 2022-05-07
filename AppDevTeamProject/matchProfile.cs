@@ -31,7 +31,7 @@ namespace AppDevTeamProject
         {
             MessageBox.Show("You declined the match up! Check out your other match up", "DECLINED MATCH!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             this.Hide();
-            Profile prof = new Profile();
+            Profile prof = new Profile(null, null);
             prof.ShowDialog();
             this.Close();
         }

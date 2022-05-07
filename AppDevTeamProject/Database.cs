@@ -20,12 +20,31 @@ namespace AppDevTeamProject
         public static Root LoadDb()
         {
             // retieves objects from the json file
+<<<<<<< Updated upstream
      
             string fileName = @"C:\Users\peacewalker\Documents\GitHub\App-Dev-Team-Project\AppDevTeamProject\JsonData\Members.json";
             string jsonText = File.ReadAllText(fileName);
             var data = Newtonsoft.Json.JsonConvert.DeserializeObject<Root>(jsonText);
             
             return data;
+=======
+            // Make sure you have the right path
+            // The json data is under JsonData
+            
+            try
+            {
+                string fileName = @"F:\gitHub\App-Dev-Team-Project\AppDevTeamProject\JsonData\Members.json";
+                string jsonText = File.ReadAllText(fileName);
+                var data = Newtonsoft.Json.JsonConvert.DeserializeObject<Root>(jsonText);
+                return data;
+            }
+           catch (Exception)
+            {
+                MessageBox.Show("Error getting JSON data", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            
+            return null;
+>>>>>>> Stashed changes
         }
 
     }

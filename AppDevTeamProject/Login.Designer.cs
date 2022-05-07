@@ -35,6 +35,7 @@ namespace AppDevTeamProject
             this.loginPasswordTextbox = new System.Windows.Forms.TextBox();
             this.logInBtn = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.alertInvalidAccountLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -68,6 +69,7 @@ namespace AppDevTeamProject
             this.loginPasswordTextbox.Name = "loginPasswordTextbox";
             this.loginPasswordTextbox.Size = new System.Drawing.Size(318, 20);
             this.loginPasswordTextbox.TabIndex = 3;
+            this.loginPasswordTextbox.UseSystemPasswordChar = true;
             // 
             // logInBtn
             // 
@@ -87,11 +89,27 @@ namespace AppDevTeamProject
             this.menuStrip1.TabIndex = 5;
             this.menuStrip1.Text = "menuStrip1";
             // 
+            // alertInvalidAccountLabel
+            // 
+            this.alertInvalidAccountLabel.AutoSize = true;
+            this.alertInvalidAccountLabel.BackColor = System.Drawing.Color.Transparent;
+            this.alertInvalidAccountLabel.ForeColor = System.Drawing.Color.Red;
+            this.alertInvalidAccountLabel.Location = new System.Drawing.Point(65, 198);
+            this.alertInvalidAccountLabel.Name = "alertInvalidAccountLabel";
+            this.alertInvalidAccountLabel.Size = new System.Drawing.Size(115, 13);
+            this.alertInvalidAccountLabel.TabIndex = 6;
+            this.alertInvalidAccountLabel.Text = "Account doesn\'t Exist! ";
+            this.alertInvalidAccountLabel.Visible = false;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(445, 236);
+<<<<<<< Updated upstream
+=======
+            this.Controls.Add(this.alertInvalidAccountLabel);
+>>>>>>> Stashed changes
             this.Controls.Add(this.logInBtn);
             this.Controls.Add(this.loginPasswordTextbox);
             this.Controls.Add(this.loginUsernameTextBox);
@@ -115,5 +133,6 @@ namespace AppDevTeamProject
         private System.Windows.Forms.TextBox loginPasswordTextbox;
         private System.Windows.Forms.Button logInBtn;
         private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.Label alertInvalidAccountLabel;
     }
 }
