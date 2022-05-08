@@ -18,6 +18,7 @@ namespace AppDevTeamProject
         public string LastName { get; set; }
         public int Age { get; set; }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
         public string Gender { get; set; }
 >>>>>>> Stashed changes
@@ -25,6 +26,13 @@ namespace AppDevTeamProject
         public string Bio { get; set; }
         public List<string> Traits { get; set; }
         public string Usernmae { get; set; }
+=======
+        public string Gender { get; set; }
+        public string Location { get; set; }
+        public string Bio { get; set; }
+        public List<string> Traits { get; set; }
+        public string Username { get; set; }
+>>>>>>> Stashed changes
         public string Password { get; set; }
         public List<string> Likes { get; set; }
         public string Avatar { get; set; }

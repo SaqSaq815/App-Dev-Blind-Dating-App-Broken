@@ -21,6 +21,7 @@ namespace AppDevTeamProject
         {
             // retieves objects from the json file
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
      
             string fileName = @"C:\Users\peacewalker\Documents\GitHub\App-Dev-Team-Project\AppDevTeamProject\JsonData\Members.json";
             string jsonText = File.ReadAllText(fileName);
@@ -28,6 +29,8 @@ namespace AppDevTeamProject
             
             return data;
 =======
+=======
+>>>>>>> Stashed changes
             // Make sure you have the right path
             // The json data is under JsonData
             
@@ -44,13 +47,20 @@ namespace AppDevTeamProject
             }
             
             return null;
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
         }
 
+=======
+        }
+
+
+>>>>>>> Stashed changes
     }
 
     public class UserCharacters
     {
+<<<<<<< Updated upstream
         private string[] interest = { "Stable", "Fun", "Rich", "Sweet", "Respectful", "Wild", "Charismatic", "Smart", "Tough", "Loyal", "Short", "Tall", "Religious", "Horny"};
 
         public string[] getInterest()
@@ -59,6 +69,10 @@ namespace AppDevTeamProject
         }
 
         
+=======
+        private string[] interest = { "Stable", "Fun", "Rich", "Sweet", "Respectful", "Wild", "Charismatic", "Smart", 
+            "Tough", "Loyal", "Short", "Tall", "Religious", "Horny"};   
+>>>>>>> Stashed changes
   
     }
 }

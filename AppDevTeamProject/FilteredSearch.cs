@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,32 +10,30 @@ using System.Windows.Forms;
 
 namespace AppDevTeamProject
 {
-    public partial class listOfMatched : Form
+    public partial class FilteredSearch : Form
     {
+
         // Classhelper Reference
         private HelperClass h;
 
-        // Counter to control next and previoius value
         private static int counter = 0;
-        private static int index;
-       
-        public listOfMatched(HelperClass h)
+
+        private static int index; // For now, we are not allowing unmatched visit
+
+        public FilteredSearch(HelperClass h)
         {
             InitializeComponent();
             this.h = h;
+            InstantiateDataFilter(h.filteredUsers[0]);
         }
 
-        private void ListOfMatched_Load(object sender, EventArgs e)
-        {
-            // Start form index 0
-            InstantiateData(h.matchUsers[0]);
 
-        }
-
-        private void InstantiateData(USER user)
+        private void InstantiateDataFilter(USER user)
         {
             matchProfilePictureBox.Image =
               (Image)(Properties.Resources.ResourceManager.GetObject(user.Avatar));
+
+            filteredTag.Text = h.Tag;
 
             matchNameLabel.Text = user.FirstName + " " + user.LastName;
 
@@ -43,14 +41,14 @@ namespace AppDevTeamProject
 
         private void matchNextBtn_Click(object sender, EventArgs e)
         {
-            if (counter >= h.getTotalMatch() - 1)
+            if (counter >= h.getFilterListSize() - 1)
             {
                 counter = -1;
-               
+
             }
             else
             {
-                InstantiateData(h.matchUsers[++counter]);
+                InstantiateDataFilter(h.filteredUsers[++counter]);
                 index = counter;
             }
         }
@@ -59,21 +57,15 @@ namespace AppDevTeamProject
         {
             if (counter <= 0)
             {
-                counter = h.getTotalMatch();
+                counter = h.getFilterListSize();
             }
             else
             {
-                InstantiateData(h.matchUsers[--counter]);
+                InstantiateDataFilter(h.filteredUsers[--counter]);
                 index = counter;
             }
         }
 
-        private void matchVisitBtn_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            matchProfile mp = new matchProfile(h.getUserByIndex(index));
-            mp.ShowDialog();
-            this.Close();
-        }
+       
     }
 }

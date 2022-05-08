@@ -107,6 +107,10 @@ namespace AppDevTeamProject
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(445, 236);
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+            this.Controls.Add(this.alertInvalidAccountLabel);
+>>>>>>> Stashed changes
 =======
             this.Controls.Add(this.alertInvalidAccountLabel);
 >>>>>>> Stashed changes

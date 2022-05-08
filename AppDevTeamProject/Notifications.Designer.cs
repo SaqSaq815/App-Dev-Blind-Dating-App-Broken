@@ -32,17 +32,18 @@ namespace AppDevTeamProject
             this.notificationsLabel = new System.Windows.Forms.Label();
             this.notificationsViewBtn = new System.Windows.Forms.Button();
             this.notificationsCancelBtn = new System.Windows.Forms.Button();
+            this.notifMatchCounLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // notificationsLabel
             // 
             this.notificationsLabel.AutoSize = true;
             this.notificationsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.notificationsLabel.Location = new System.Drawing.Point(58, 33);
+            this.notificationsLabel.Location = new System.Drawing.Point(106, 33);
             this.notificationsLabel.Name = "notificationsLabel";
-            this.notificationsLabel.Size = new System.Drawing.Size(210, 24);
+            this.notificationsLabel.Size = new System.Drawing.Size(77, 24);
             this.notificationsLabel.TabIndex = 0;
-            this.notificationsLabel.Text = "You have ## Matches";
+            this.notificationsLabel.Text = "Found:";
             // 
             // notificationsViewBtn
             // 
@@ -66,6 +67,16 @@ namespace AppDevTeamProject
             this.notificationsCancelBtn.UseVisualStyleBackColor = true;
             this.notificationsCancelBtn.Click += new System.EventHandler(this.notificationsCancelBtn_Click);
             // 
+            // notifMatchCounLabel
+            // 
+            this.notifMatchCounLabel.AutoSize = true;
+            this.notifMatchCounLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.notifMatchCounLabel.Location = new System.Drawing.Point(199, 33);
+            this.notifMatchCounLabel.Name = "notifMatchCounLabel";
+            this.notifMatchCounLabel.Size = new System.Drawing.Size(21, 24);
+            this.notifMatchCounLabel.TabIndex = 0;
+            this.notifMatchCounLabel.Text = "0";
+            // 
             // Notifications
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -73,9 +84,11 @@ namespace AppDevTeamProject
             this.ClientSize = new System.Drawing.Size(327, 158);
             this.Controls.Add(this.notificationsCancelBtn);
             this.Controls.Add(this.notificationsViewBtn);
+            this.Controls.Add(this.notifMatchCounLabel);
             this.Controls.Add(this.notificationsLabel);
             this.Name = "Notifications";
             this.Text = "Notifications";
+            this.Load += new System.EventHandler(this.Notifications_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -86,5 +99,6 @@ namespace AppDevTeamProject
         private System.Windows.Forms.Label notificationsLabel;
         private System.Windows.Forms.Button notificationsViewBtn;
         private System.Windows.Forms.Button notificationsCancelBtn;
+        private System.Windows.Forms.Label notifMatchCounLabel;
     }
 }

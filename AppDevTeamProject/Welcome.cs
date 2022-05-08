@@ -12,6 +12,9 @@ namespace AppDevTeamProject
 {
     public partial class Welcome : Form
     {
+
+        // Main HelperClass reference
+        HelperClass h = new HelperClass();
         public Welcome()
         {
             InitializeComponent();
@@ -21,7 +24,7 @@ namespace AppDevTeamProject
         {
 
             this.Hide();
-            newUserRegistration newUserForm = new newUserRegistration();
+            newUserRegistration newUserForm = new newUserRegistration(h);
             newUserForm.ShowDialog();
             this.Close();
         }
@@ -29,7 +32,7 @@ namespace AppDevTeamProject
         private void alreadyMemberBtn_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Login login = new Login();
+            Login login = new Login(h);
             login.ShowDialog();
             this.Close();
         }

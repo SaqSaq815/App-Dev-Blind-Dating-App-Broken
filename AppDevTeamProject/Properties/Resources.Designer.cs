@@ -63,6 +63,39 @@ namespace AppDevTeamProject.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< Updated upstream
+=======
+        internal static System.Drawing.Bitmap _default {
+            get {
+                object obj = ResourceManager.GetObject("_default", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Amanda {
+            get {
+                object obj = ResourceManager.GetObject("Amanda", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap arvin {
+            get {
+                object obj = ResourceManager.GetObject("arvin", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+>>>>>>> Stashed changes
         internal static System.Drawing.Bitmap Arvina {
             get {
                 object obj = ResourceManager.GetObject("Arvina", resourceCulture);
@@ -73,6 +106,19 @@ namespace AppDevTeamProject.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< Updated upstream
+=======
+        internal static System.Drawing.Bitmap Channel {
+            get {
+                object obj = ResourceManager.GetObject("Channel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+>>>>>>> Stashed changes
         internal static System.Drawing.Bitmap jeffrey {
             get {
                 object obj = ResourceManager.GetObject("jeffrey", resourceCulture);
@@ -83,6 +129,89 @@ namespace AppDevTeamProject.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< Updated upstream
+=======
+        internal static System.Drawing.Bitmap jofie {
+            get {
+                object obj = ResourceManager.GetObject("jofie", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Justina {
+            get {
+                object obj = ResourceManager.GetObject("Justina", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Karen {
+            get {
+                object obj = ResourceManager.GetObject("Karen", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Kathy {
+            get {
+                object obj = ResourceManager.GetObject("Kathy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Leonor {
+            get {
+                object obj = ResourceManager.GetObject("Leonor", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Nami {
+            get {
+                object obj = ResourceManager.GetObject("Nami", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Nancy {
+            get {
+                object obj = ResourceManager.GetObject("Nancy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Natasha {
+            get {
+                object obj = ResourceManager.GetObject("Natasha", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+>>>>>>> Stashed changes
         internal static System.Drawing.Bitmap Philicia {
             get {
                 object obj = ResourceManager.GetObject("Philicia", resourceCulture);
@@ -93,11 +222,57 @@ namespace AppDevTeamProject.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< Updated upstream
+=======
+        internal static System.Drawing.Bitmap philip {
+            get {
+                object obj = ResourceManager.GetObject("philip", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap phuc {
+            get {
+                object obj = ResourceManager.GetObject("phuc", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+>>>>>>> Stashed changes
         internal static System.Drawing.Bitmap Saq {
             get {
                 object obj = ResourceManager.GetObject("Saq", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+<<<<<<< Updated upstream
+=======
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sophie {
+            get {
+                object obj = ResourceManager.GetObject("Sophie", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tomina {
+            get {
+                object obj = ResourceManager.GetObject("tomina", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+>>>>>>> Stashed changes
     }
 }

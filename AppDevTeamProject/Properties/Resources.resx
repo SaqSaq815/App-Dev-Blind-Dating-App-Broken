@@ -118,6 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+<<<<<<< Updated upstream
   <data name="Arvina" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Arvina.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -130,4 +131,66 @@
   <data name="Saq" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Saq.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+=======
+  <data name="Amanda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Amanda.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arvin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arvin.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arvina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arvina.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Channel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Channel.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jeffrey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jeffrey.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jofie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jofie.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Justina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Justina.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Karen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Karen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kathy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kathy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Leonor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Leonor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nami" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nami.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nancy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nancy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Natasha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Natasha.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Philicia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Philicia.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="philip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\philip.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phuc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phuc.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Saq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Saq.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sophie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sophie.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tomina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tomina.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\default.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+>>>>>>> Stashed changes
 </root>

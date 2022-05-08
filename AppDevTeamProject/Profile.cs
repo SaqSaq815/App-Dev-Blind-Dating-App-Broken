@@ -26,21 +26,75 @@ namespace AppDevTeamProject
 
         private void profileLogoutBtn_Click(object sender, EventArgs e)
         {
+            h.AddnewUserToDB();
             Application.Exit();
         }
 
         private void profileNotificationsBtn_Click(object sender, EventArgs e)
         {
+            // Clears the list of Matches
+            h.clearMatches();
+            
+            if (h.addMatchUserToList())
+            {
+                Notifications notif = new Notifications(h);
+                notif.ShowDialog();
+            }
          
-            Notifications notif = new Notifications();
-            notif.ShowDialog();
           
         }
 
         private void button1_Click(object sender, EventArgs e)
+        {   
+            if(profileSearchTextbox.Text != "" && h.VerifiySearch(profileSearchTextbox.Text.ToLower()))
+            {
+                h.clearFilter();
+                h.Tag = profileSearchTextbox.Text.ToUpper();
+                string lookForTrait = profileSearchTextbox.Text.ToLower();
+                h.FilteredSearchByTraits(lookForTrait);
+                FilteredSearch f = new FilteredSearch(h);
+                f.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Please enter one of the traits you are looking for"
+                    , "INVALID", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+
+
+           
+        }
+
+        private void Profile_Load(object sender, EventArgs e)
         {
-            matchProfile mpf = new matchProfile();
-            mpf.ShowDialog();
+        
+
+            // Retrieve photos in the resources 
+            profilePhotoPictureBox.Image =
+               (Image)(Properties.Resources.ResourceManager.GetObject(currentUser.Avatar));
+
+
+            firstNameTextBox.Text = currentUser.FirstName;
+            lastNameTextBox.Text = currentUser.LastName;
+            ageTextBox.Text = currentUser.Age.ToString();
+            genderTextBox.Text = currentUser.Gender;
+            locationTextBox.Text = currentUser.Location;
+            foreach( string trait in currentUser.Traits)
+            {
+                traitsTextBox.Text += trait.ToUpper() + Environment.NewLine;
+            }
+            foreach (string like in currentUser.Likes)
+            {
+                likesTextBox.Text += like.ToUpper() + Environment.NewLine;
+            }
+            bioTextBox.Text = currentUser.Bio;
+            currentLoginLabel.Text = currentUser.Username;
+        }
+
+        private void currentTimer_Tick(object sender, EventArgs e)
+        {
+            // show current time
+            timeLabel.Text = DateTime.Now.ToString();
         }
 
         private void Profile_Load(object sender, EventArgs e)

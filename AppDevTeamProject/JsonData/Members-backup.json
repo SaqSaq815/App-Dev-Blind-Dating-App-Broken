@@ -1,54 +1,4 @@
-<<<<<<< Updated upstream
 ﻿{
-  "USER": [
-    {
-      "Id": 0,
-      "FirstName": "Jeffrey",
-      "LastName": "Grospe",
-      "Age": 29,
-<<<<<<< Updated upstream
-=======
-      "Gender": "Male",
->>>>>>> Stashed changes
-      "Location": "Montreal City",
-      "Bio": "Me gusta ti culo",
-      "Traits": [ "smart", "fun", "easy going" ],
-      "Usernmae": "jgrospe",
-      "Password": "1234",
-      "Likes": [ "stable", "sweet", "fun" ],
-<<<<<<< Updated upstream
-      "Avatar": ""
-=======
-      "Avatar": "jeffrey"
->>>>>>> Stashed changes
-    },
-    {
-      "Id": 1,
-      "FirstName": "Md Saqliyan",
-      "LastName": "Islam",
-      "Age": 29,
-<<<<<<< Updated upstream
-=======
-      "Gender": "Male",
->>>>>>> Stashed changes
-      "Location": "Montreal City",
-      "Bio": "I will make you taste heaven",
-      "Traits": [ "rich", "horny", "religious" ],
-      "Usernmae": "mdsaqliyan",
-      "Password": "1234",
-      "Likes": [ "horny", "horny", "horny" ],
-<<<<<<< Updated upstream
-      "Avatar": ""
-    },
-=======
-      "Avatar": "Saq"
-    }
->>>>>>> Stashed changes
-
-  ]
-
-=======
-{
   "USER": [
     {
       "Id": 0,
@@ -61,7 +11,7 @@
       "Traits": [ "smart", "fun", "loyal" ],
       "Username": "jgrospe",
       "Password": "1234",
-      "Likes": [ "sweet", "loyal", "rich" ],
+      "Likes": [ "stable", "sweet", "fun" ],
       "Avatar": "jeffrey"
     },
     {
@@ -97,7 +47,7 @@
       "FirstName": "Arvina",
       "LastName": "Dama",
       "Age": 19,
-      "Gender": "Other",
+      "Gender": "Female",
       "Location": "Ottawa",
       "Bio": "Bi ba bi ba booop",
       "Traits": [ "tall", "fun", "lustful" ],
@@ -127,8 +77,8 @@
       "Age": 25,
       "Gender": "Female",
       "Location": "Mexico",
-      "Bio": "Can you handle the fire?",
-      "Traits": [ "stable", "sweet", "fun" ],
+      "Bio": "Can you handle the this?",
+      "Traits": [ "wild", "fun", "smart", "rich" ],
       "Username": "channel",
       "Password": "5555",
       "Likes": [ "tough", "wild", "fun", "smart", "rich", "lustful" ],
@@ -197,7 +147,7 @@
       "Age": 20,
       "Gender": "Female",
       "Location": "Bejing",
-      "Bio": "Come with me and let's travel the world",
+      "Bio": "Come with me and travel the world",
       "Traits": [ "rich", "fun", "tall" ],
       "Username": "Kathy",
       "Password": "87645",
@@ -226,7 +176,7 @@
       "Gender": "Female",
       "Location": "New York",
       "Bio": "All I need is my prince charming",
-      "Traits": [ "rich", "smart", "loyal" ],
+      "Traits": [ "rich", "smart", "loyar" ],
       "Username": "Nami",
       "Password": "55633",
       "Likes": [ "loyal" ],
@@ -239,7 +189,7 @@
       "Age": 60,
       "Gender": "Female",
       "Location": "Guatemala",
-      "Bio": "Love and Peace, Rest",
+      "Bio": "Love and Peace",
       "Traits": [ "sweet" ],
       "Username": "Nancy",
       "Password": "22221",
@@ -289,7 +239,7 @@
       "Avatar": "phuc"
     },
     {
-      "Id": 18,
+      "Id": 17,
       "FirstName": "Sophie",
       "LastName": "Fischer",
       "Age": 20,
@@ -303,7 +253,7 @@
       "Avatar": "Sophie"
     },
     {
-      "Id": 19,
+      "Id": 18,
       "FirstName": "Tomina",
       "LastName": "Minata",
       "Age": 30,
@@ -316,6 +266,8 @@
       "Likes": [ "rich", "loyal", "tough" ],
       "Avatar": "tomina"
     }
+
+
+
   ]
->>>>>>> Stashed changes
 }

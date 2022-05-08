@@ -49,6 +49,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< Updated upstream
+=======
+    <Compile Include="FilteredSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilteredSearch.Designer.cs">
+      <DependentUpon>FilteredSearch.cs</DependentUpon>
+    </Compile>
+>>>>>>> Stashed changes
     <Compile Include="HelperClass.cs" />
     <Compile Include="listOfMatched.cs">
       <SubType>Form</SubType>
@@ -75,6 +84,15 @@
       <DependentUpon>Profile.cs</DependentUpon>
     </Compile>
     <Compile Include="Root.cs" />
+<<<<<<< Updated upstream
+=======
+    <Compile Include="SendMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SendMessage.Designer.cs">
+      <DependentUpon>SendMessage.cs</DependentUpon>
+    </Compile>
+>>>>>>> Stashed changes
     <Compile Include="TestControl.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,6 +121,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Database.cs" />
     <Compile Include="User.cs" />
+    <EmbeddedResource Include="FilteredSearch.resx">
+      <DependentUpon>FilteredSearch.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="listOfMatched.resx">
       <DependentUpon>listOfMatched.cs</DependentUpon>
     </EmbeddedResource>
@@ -115,6 +136,12 @@
     <EmbeddedResource Include="Profile.resx">
       <DependentUpon>Profile.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< Updated upstream
+=======
+    <EmbeddedResource Include="SendMessage.resx">
+      <DependentUpon>SendMessage.cs</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> Stashed changes
     <EmbeddedResource Include="TestControl.resx">
       <DependentUpon>TestControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -164,5 +191,56 @@
   <ItemGroup>
     <None Include="Resources\jeffrey.jpg" />
   </ItemGroup>
+<<<<<<< Updated upstream
+=======
+  <ItemGroup>
+    <None Include="Resources\default.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arvin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jofie.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\philip.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phuc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tomina.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Amanda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Channel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Justina.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Karen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kathy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Leonor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nami.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nancy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Natasha.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sophie.jpg" />
+  </ItemGroup>
+>>>>>>> Stashed changes
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

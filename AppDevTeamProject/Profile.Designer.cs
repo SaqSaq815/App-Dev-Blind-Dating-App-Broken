@@ -29,10 +29,21 @@ namespace AppDevTeamProject
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+<<<<<<< Updated upstream
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.ageTextBox = new System.Windows.Forms.TextBox();
             this.lastNameTextBox = new System.Windows.Forms.TextBox();
+=======
+            this.profilePhotoPictureBox = new System.Windows.Forms.PictureBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.locationTextBox = new System.Windows.Forms.TextBox();
+            this.genderTextBox = new System.Windows.Forms.TextBox();
+            this.ageTextBox = new System.Windows.Forms.TextBox();
+            this.lastNameTextBox = new System.Windows.Forms.TextBox();
+            this.locationlbl = new System.Windows.Forms.Label();
+>>>>>>> Stashed changes
             this.firstNameTextBox = new System.Windows.Forms.TextBox();
             this.genderlbl = new System.Windows.Forms.Label();
             this.traitsTextBox = new System.Windows.Forms.TextBox();
@@ -40,10 +51,15 @@ namespace AppDevTeamProject
             this.agelbl = new System.Windows.Forms.Label();
             this.traitslbl = new System.Windows.Forms.Label();
             this.likeslbl = new System.Windows.Forms.Label();
+<<<<<<< Updated upstream
+=======
+            this.lNamelbl = new System.Windows.Forms.Label();
+>>>>>>> Stashed changes
             this.fNamelbl = new System.Windows.Forms.Label();
             this.profileSearchTextbox = new System.Windows.Forms.TextBox();
             this.profileLogoutBtn = new System.Windows.Forms.Button();
             this.profileNotificationsBtn = new System.Windows.Forms.Button();
+<<<<<<< Updated upstream
             this.button1 = new System.Windows.Forms.Button();
             this.currentLoginLabel = new System.Windows.Forms.Label();
             this.bioLabel = new System.Windows.Forms.Label();
@@ -53,9 +69,21 @@ namespace AppDevTeamProject
             this.locationTextBox = new System.Windows.Forms.TextBox();
             this.profilePhotoPictureBox = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+=======
+            this.searchButton = new System.Windows.Forms.Button();
+            this.currentLoginLabel = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.timeLabel = new System.Windows.Forms.Label();
+            this.currentTimer = new System.Windows.Forms.Timer(this.components);
+            this.bioTextBox = new System.Windows.Forms.TextBox();
+>>>>>>> Stashed changes
             this.groupBox2.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.profilePhotoPictureBox)).BeginInit();
+            this.groupBox1.SuspendLayout();
+<<<<<<< Updated upstream
+            ((System.ComponentModel.ISupportInitialize)(this.profilePhotoPictureBox)).BeginInit();
+=======
+>>>>>>> Stashed changes
             this.SuspendLayout();
             // 
             // groupBox2
@@ -71,6 +99,20 @@ namespace AppDevTeamProject
             this.groupBox2.TabIndex = 12;
             this.groupBox2.TabStop = false;
             // 
+<<<<<<< Updated upstream
+=======
+            // profilePhotoPictureBox
+            // 
+            this.profilePhotoPictureBox.Location = new System.Drawing.Point(6, 10);
+            this.profilePhotoPictureBox.MaximumSize = new System.Drawing.Size(300, 250);
+            this.profilePhotoPictureBox.MinimumSize = new System.Drawing.Size(150, 150);
+            this.profilePhotoPictureBox.Name = "profilePhotoPictureBox";
+            this.profilePhotoPictureBox.Size = new System.Drawing.Size(260, 250);
+            this.profilePhotoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.profilePhotoPictureBox.TabIndex = 0;
+            this.profilePhotoPictureBox.TabStop = false;
+            // 
+>>>>>>> Stashed changes
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.ControlLight;
@@ -95,6 +137,26 @@ namespace AppDevTeamProject
             this.groupBox1.TabIndex = 13;
             this.groupBox1.TabStop = false;
             // 
+<<<<<<< Updated upstream
+=======
+            // locationTextBox
+            // 
+            this.locationTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.locationTextBox.Location = new System.Drawing.Point(117, 143);
+            this.locationTextBox.Name = "locationTextBox";
+            this.locationTextBox.ReadOnly = true;
+            this.locationTextBox.Size = new System.Drawing.Size(228, 22);
+            this.locationTextBox.TabIndex = 16;
+            // 
+            // genderTextBox
+            // 
+            this.genderTextBox.Location = new System.Drawing.Point(117, 115);
+            this.genderTextBox.Name = "genderTextBox";
+            this.genderTextBox.ReadOnly = true;
+            this.genderTextBox.Size = new System.Drawing.Size(77, 22);
+            this.genderTextBox.TabIndex = 16;
+            // 
+>>>>>>> Stashed changes
             // ageTextBox
             // 
             this.ageTextBox.Location = new System.Drawing.Point(117, 84);
@@ -111,6 +173,18 @@ namespace AppDevTeamProject
             this.lastNameTextBox.Size = new System.Drawing.Size(228, 22);
             this.lastNameTextBox.TabIndex = 16;
             // 
+<<<<<<< Updated upstream
+=======
+            // locationlbl
+            // 
+            this.locationlbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.locationlbl.Location = new System.Drawing.Point(8, 146);
+            this.locationlbl.Name = "locationlbl";
+            this.locationlbl.Size = new System.Drawing.Size(82, 19);
+            this.locationlbl.TabIndex = 7;
+            this.locationlbl.Text = "Location:";
+            // 
+>>>>>>> Stashed changes
             // firstNameTextBox
             // 
             this.firstNameTextBox.Location = new System.Drawing.Point(117, 20);
@@ -175,6 +249,18 @@ namespace AppDevTeamProject
             this.likeslbl.TabIndex = 6;
             this.likeslbl.Text = "Likes";
             // 
+<<<<<<< Updated upstream
+=======
+            // lNamelbl
+            // 
+            this.lNamelbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lNamelbl.Location = new System.Drawing.Point(6, 57);
+            this.lNamelbl.Name = "lNamelbl";
+            this.lNamelbl.Size = new System.Drawing.Size(87, 19);
+            this.lNamelbl.TabIndex = 4;
+            this.lNamelbl.Text = "Last Name";
+            // 
+>>>>>>> Stashed changes
             // fNamelbl
             // 
             this.fNamelbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -192,7 +278,6 @@ namespace AppDevTeamProject
             this.profileSearchTextbox.Name = "profileSearchTextbox";
             this.profileSearchTextbox.Size = new System.Drawing.Size(267, 20);
             this.profileSearchTextbox.TabIndex = 14;
-            this.profileSearchTextbox.Text = "Search";
             // 
             // profileLogoutBtn
             // 
@@ -216,6 +301,7 @@ namespace AppDevTeamProject
             this.profileNotificationsBtn.UseVisualStyleBackColor = true;
             this.profileNotificationsBtn.Click += new System.EventHandler(this.profileNotificationsBtn_Click);
             // 
+<<<<<<< Updated upstream
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -226,6 +312,63 @@ namespace AppDevTeamProject
             this.button1.Text = "Search";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+=======
+            // searchButton
+            // 
+            this.searchButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.searchButton.Location = new System.Drawing.Point(12, 46);
+            this.searchButton.Name = "searchButton";
+            this.searchButton.Size = new System.Drawing.Size(107, 25);
+            this.searchButton.TabIndex = 16;
+            this.searchButton.Text = "Search by traits";
+            this.searchButton.UseVisualStyleBackColor = true;
+            this.searchButton.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // currentLoginLabel
+            // 
+            this.currentLoginLabel.AutoSize = true;
+            this.currentLoginLabel.Location = new System.Drawing.Point(92, 489);
+            this.currentLoginLabel.Name = "currentLoginLabel";
+            this.currentLoginLabel.Size = new System.Drawing.Size(27, 13);
+            this.currentLoginLabel.TabIndex = 17;
+            this.currentLoginLabel.Text = "user";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(15, 489);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(74, 13);
+            this.label1.TabIndex = 17;
+            this.label1.Text = "Logged in as :";
+            // 
+            // timeLabel
+            // 
+            this.timeLabel.AutoSize = true;
+            this.timeLabel.Location = new System.Drawing.Point(15, 511);
+            this.timeLabel.Name = "timeLabel";
+            this.timeLabel.Size = new System.Drawing.Size(30, 13);
+            this.timeLabel.TabIndex = 19;
+            this.timeLabel.Text = "Time";
+            // 
+            // currentTimer
+            // 
+            this.currentTimer.Enabled = true;
+            this.currentTimer.Interval = 1000;
+            this.currentTimer.Tick += new System.EventHandler(this.currentTimer_Tick);
+            // 
+            // bioTextBox
+            // 
+            this.bioTextBox.BackColor = System.Drawing.SystemColors.Control;
+            this.bioTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.bioTextBox.Font = new System.Drawing.Font("Calibri", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bioTextBox.Location = new System.Drawing.Point(12, 341);
+            this.bioTextBox.Multiline = true;
+            this.bioTextBox.Name = "bioTextBox";
+            this.bioTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.bioTextBox.Size = new System.Drawing.Size(320, 123);
+            this.bioTextBox.TabIndex = 20;
+>>>>>>> Stashed changes
             // 
             // currentLoginLabel
             // 
@@ -307,10 +450,18 @@ namespace AppDevTeamProject
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 533);
+<<<<<<< Updated upstream
             this.Controls.Add(this.bioLabel);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.currentLoginLabel);
             this.Controls.Add(this.button1);
+=======
+            this.Controls.Add(this.bioTextBox);
+            this.Controls.Add(this.timeLabel);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.currentLoginLabel);
+            this.Controls.Add(this.searchButton);
+>>>>>>> Stashed changes
             this.Controls.Add(this.profileNotificationsBtn);
             this.Controls.Add(this.profileLogoutBtn);
             this.Controls.Add(this.profileSearchTextbox);
@@ -321,9 +472,15 @@ namespace AppDevTeamProject
             this.Load += new System.EventHandler(this.Profile_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+<<<<<<< Updated upstream
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.profilePhotoPictureBox)).EndInit();
+=======
+            ((System.ComponentModel.ISupportInitialize)(this.profilePhotoPictureBox)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+>>>>>>> Stashed changes
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -339,12 +496,19 @@ namespace AppDevTeamProject
         private System.Windows.Forms.TextBox profileSearchTextbox;
         private System.Windows.Forms.Button profileLogoutBtn;
         private System.Windows.Forms.Button profileNotificationsBtn;
+<<<<<<< Updated upstream
         private System.Windows.Forms.Button button1;
+=======
+        private System.Windows.Forms.Button searchButton;
+>>>>>>> Stashed changes
         private System.Windows.Forms.TextBox likesTextBox;
         private System.Windows.Forms.TextBox lastNameTextBox;
         private System.Windows.Forms.TextBox firstNameTextBox;
         private System.Windows.Forms.Label currentLoginLabel;
+<<<<<<< Updated upstream
         private System.Windows.Forms.Label bioLabel;
+=======
+>>>>>>> Stashed changes
         private System.Windows.Forms.TextBox ageTextBox;
         private System.Windows.Forms.Label genderlbl;
         private System.Windows.Forms.TextBox traitsTextBox;
@@ -355,5 +519,11 @@ namespace AppDevTeamProject
         private System.Windows.Forms.Label lNamelbl;
         private System.Windows.Forms.PictureBox profilePhotoPictureBox;
         private System.Windows.Forms.Label label1;
+<<<<<<< Updated upstream
+=======
+        private System.Windows.Forms.Label timeLabel;
+        private System.Windows.Forms.Timer currentTimer;
+        private System.Windows.Forms.TextBox bioTextBox;
+>>>>>>> Stashed changes
     }
 }
